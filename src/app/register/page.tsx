@@ -1,10 +1,17 @@
-import { Container,Stack } from "@mui/material"
+import { Box, Container,Stack } from "@mui/material"
 
 const RegisterPage = () => {
   return (
-    <Container>
+    <Container sx={{padding:"50px"}}>
       <Stack sx={{justifyContent:"center", alignItems:"center"}}>
-           dd
+          <Box sx={{maxWidth:600, width:"100%", boxShadow:1, borderRadius:1, p:4}}>
+             <Stack sx={{justifyContent:"center", alignItems:"center"}}>
+                 <Box>
+                 p
+                 </Box>
+
+             </Stack>
+          </Box>
       </Stack>
     </Container>
   )
