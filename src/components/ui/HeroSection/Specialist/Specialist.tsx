@@ -41,7 +41,7 @@ const Specialist =async () => {
 
 
              {
-                 specialties?.map((specialtie:Tspecialtie)=>  <>
+                 specialties?.slice(0,6).map((specialtie:Tspecialtie)=>  <>
                  
                  <div key={specialtie.id} className="w-[180px] h-[200px] rounded-md shadow flex flex-col gap-4 items-center justify-center cursor-pointer duration-300 bg-white hover:border hover:border-[#ABD2F0] hover:translate-x-2">
                   <Image className=" object-cover" src={specialtie.icon} alt="specialties icon" width={100} height={50} />
